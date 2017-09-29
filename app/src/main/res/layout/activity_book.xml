@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="duc.example.com.kidsgames.BookActivity">
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="21dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff0000"
+        />
+
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="21dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btnRed"
+        android:background="#1237ff"/>
+
+
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="21dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btnBlue"
+        android:background="#00ff01" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:background="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <duc.example.com.kidsgames.PaintView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnRed"
+        android:background="@drawable/coloringbamib"
+        android:id="@+id/coloringBambi"/>
+
+    <Button
+        android:id="@+id/btnPurple"
+        android:layout_width="21dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/coloringBambi"
+        android:layout_toEndOf="@+id/btnGreen"
+        android:background="#9C27B0" />
+
+    <Button
+        android:id="@+id/btnYellow"
+        android:layout_width="21dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btnPurple"
+        android:background="#FFEB3B"
+        />
+
+    <Button
+        android:id="@+id/btnBlack"
+        android:layout_width="21dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/btnYellow"
+        android:layout_above="@id/coloringBambi"
+        android:background="#000000"
+        />
+
+    <Button
+        android:id="@+id/btnOrange"
+        android:layout_width="21dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/coloringBambi"
+        android:layout_toEndOf="@+id/btnBlack"
+        android:background="#FF9800"
+        />
+
+    <Button
+        android:id="@+id/btnGrey"
+        android:background="@color/grey"
+        android:layout_width="21dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btnOrange" />
+
+    <Button
+        android:id="@+id/btnCyan"
+        android:background="@color/cyan"
+        android:layout_width="21dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btnGrey" />
+
+    <Button
+        android:id="@+id/btnBrown"
+        android:background="@color/brown"
+        android:layout_width="21dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btnCyan" />
+
+    <Button
+        android:id="@+id/btnPink"
+        android:background="#F48FB1"
+        android:layout_width="21dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btnBrown" />
+
+
+
+</RelativeLayout>

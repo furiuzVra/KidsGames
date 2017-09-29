@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/backgrounds"
+        android:title="Change Coloring"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        >
+
+        <menu>
+            <item android:id="@+id/girl"
+                android:title="Girl"
+                />
+            <item android:id="@+id/bambi"
+                android:title="Bambi" />
+            <item android:id="@+id/minion"
+                android:title="Minion" />
+            <item android:id="@+id/dog"
+                android:title="Dog" />
+            <item android:id="@+id/siren"
+                android:title="Siren" />
+            <item android:id="@+id/bear"
+                android:title="Bear" />
+
+        </menu>
+    </item>
+
+</menu>

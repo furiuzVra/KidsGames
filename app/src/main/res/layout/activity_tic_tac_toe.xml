@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/fullscreen_content"
+    tools:context="duc.example.com.kidsgames.TicTacToeActivity">
+
+    <TableLayout
+        android:id="@+id/Grid"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_bright"
+        android:keepScreenOn="true" >
+        <TableRow
+            android:id="@+id/Row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/cell11"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@drawable/back"
+                android:onClick="cellClick"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/cell12"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@drawable/back"
+                android:onClick="cellClick"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/cell13"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@drawable/back"
+                android:onClick="cellClick"
+                android:clickable="true"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/Row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/cell21"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@drawable/back"
+                android:onClick="cellClick"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/cell22"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@drawable/back"
+                android:onClick="cellClick"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/cell23"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@drawable/back"
+                android:onClick="cellClick"
+                android:clickable="true"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/Row3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/cell31"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@drawable/back"
+                android:onClick="cellClick"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/cell32"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@drawable/back"
+                android:onClick="cellClick"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/cell33"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@drawable/back"
+                android:onClick="cellClick"
+                android:clickable="true"/>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#4d4d4d">
+        <TextView
+            android:id="@+id/Reset"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="New Game"
+            android:textColor="@color/black"
+            android:background="@drawable/button_style"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:onClick="resetClick"
+            android:clickable="true"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

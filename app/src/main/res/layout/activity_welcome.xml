@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright">
+
+    <Button
+        android:id="@+id/btnGame"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_style"
+        android:text="Memory Game"
+        />
+
+    <Button
+        android:id="@+id/btn_coloring"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGame"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="11dp"
+        android:text="Coloring Book" />
+
+    <Button
+        android:id="@+id/btnGuess"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_coloring"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/button_style"
+        android:text="GUESSING GAME" />
+
+    <Button
+        android:id="@+id/btnTicTacToe"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:text="Tic Tac TOE"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/btnGuess" />
+</RelativeLayout>
